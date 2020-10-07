@@ -1,9 +1,9 @@
 ![Image](https://i.ytimg.com/vi/dms52iuGSm0/maxresdefault.jpg)
 ## Welcome
 
-You can use the [editor on GitHub](https://github.com/emehrawn/emehrawn.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+This is an open page, If want some good stuff to read or watch or learn cool stuff, I'll be sharing some of the most cool prespective instilling data, I've collected so far.
+Even though you get access to the private repository you have abundance of data here. If you want more stuff, feel free to contact me, details of my social media displayed below. [editor on GitHub](https://github.com/emehrawn/emehrawn.github.io/edit/main/index.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
