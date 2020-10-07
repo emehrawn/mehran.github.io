@@ -34,5 +34,4 @@ This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/t
 
 ### Support or Contact
 
-[Twitter](https://twitter.com/kladenstien9) \n
-[GitHub](https://github.com/emehrawn)
+[Twitter](https://twitter.com/kladenstien9) \\ [GitHub](https://github.com/emehrawn)
