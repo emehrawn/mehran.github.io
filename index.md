@@ -1,4 +1,4 @@
-![Image](https://i.ytimg.com/vi/dms52iuGSm0/maxresdefault.jpg)
+![Image](https://utopiaeducators.com/content/images/2020/05/fyodor-dostoyevsky-portrait1.jpg)
 ## Welcome
 
 This is an open page, If want some good stuff to read or watch or learn cool stuff, I'll be sharing some of the most cool prespective instilling data, I've collected so far.
