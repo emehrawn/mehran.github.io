@@ -30,8 +30,9 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Add anything.
 
+You can either add intresting codes (with comments) if it's cool or just learn the syntax of the Markdown scripting language here and add some good literary pieces. :)
 This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/trashrepo). 
 
 ### Support or Contact
 
-[Twitter](https://twitter.com/kladenstien9) \\ [GitHub](https://github.com/emehrawn)
+[Twitter](https://twitter.com/kladenstien9) \\ [GitHub](https://github.com/emehrawn) \\ [IG](https://instagram.com/alimehrawn)
