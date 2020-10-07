@@ -1,7 +1,7 @@
 ![Image](https://utopiaeducators.com/content/images/2020/05/fyodor-dostoyevsky-portrait1.jpg)
 ## Warmest of greetings...
 
-It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intented to accommodate. Even though you don't have access to the private repository, you don't get all the content. I will share a decent swathe of great content, i have been able to accumulate, so far. For more information, you're always welcome to approach me. :)
+It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intented to accommodate. Even though you don't have access to the private repository, you don't get all the content. I will share a decent swathe of great content, i have been able to accumulate, so far. 
 
 ### Archives
 
