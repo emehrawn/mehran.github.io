@@ -1,4 +1,4 @@
-![Image] (https://i.ytimg.com/vi/dms52iuGSm0/maxresdefault.jpg)
+![Image](https://i.ytimg.com/vi/dms52iuGSm0/maxresdefault.jpg)
 
 ## Welcome
 
