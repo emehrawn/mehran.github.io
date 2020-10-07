@@ -1,8 +1,7 @@
 ![Image](https://utopiaeducators.com/content/images/2020/05/fyodor-dostoyevsky-portrait1.jpg)
-## Welcome
+## Warmest of greetings...
 
-This is an open page, If want some good stuff to read or watch or learn cool stuff, I'll be sharing some of the most cool prespective instilling data, I've collected so far.
-Even though you don't get access to the private repository, I shall share good stuff here too. If you want more stuff, feel free to contact me, details of my social media displayed below.
+It gratifies me to welcome you. I write, archive untamed storm of ideas and tools of serviceableness here.  
 
 
 ### Archives
@@ -10,10 +9,10 @@ Even though you don't get access to the private repository, I shall share good s
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```
-                                                                 
-                                                                 GG
-                                                                 
-                                                                 
+1.
+2.                                                                 
+3.
+
 ```
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
