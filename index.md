@@ -1,4 +1,4 @@
-## Welcome fo
+## Welcome
 
 You can use the [editor on GitHub](https://github.com/emehrawn/emehrawn.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -35,4 +35,4 @@ This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/t
 
 ### Support or Contact
 
-[Twitter](https://twitter.com/kladenstien9) \\ [GitHub](https://github.com/emehrawn) \\ [IG](https://instagram.com/alimehrawn)
+Mehran Ali Ansari. >> [Twitter](https://twitter.com/kladenstien9) >> [GitHub](https://github.com/emehrawn) >> [IG](https://instagram.com/alimehrawn)
