@@ -28,11 +28,11 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Add anything.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/emehrawn/emehrawn.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/trashrepo). 
 
 ### Support or Contact
 
-[Twitter](https://twitter.com/kladenstien9)
+[Twitter](https://twitter.com/kladenstien9) \n
 [GitHub](https://github.com/emehrawn)
