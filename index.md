@@ -7,7 +7,7 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 From Computer science, psychology to religion and philosophy. 
 
 ```
-
+Coming soon...
 
 ```
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
