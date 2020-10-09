@@ -7,7 +7,7 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 - ## Essays/Articles
 1. [Profound Dostoyevsky paragraphs](https://github.com/emehrawn/emehrawn.github.io/blob/main/dostoyevsky.md)
 2. [Iqbal and Sartre on Human Freedom and Creativity](https://github.com/emehrawn/emehrawn.github.io/blob/main/Iqbal%20and%20Sarte.md)
-3. https://github.com/emehrawn/emehrawn.github.io/blob/main/01.%20You%20and%20your%20unconscious%20political%20stance..pdf)
+3. [You and your unconscious political stance](https://github.com/emehrawn/emehrawn.github.io/blob/main/01.%20You%20and%20your%20unconscious%20political%20stance..pdf)
 
 
 ### Add anything.
