@@ -23,7 +23,7 @@ This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/t
 
 ## Contact
   
->> [Twitter](https://twitter.com/kladenstien9) 
->> [GitHub](https://github.com/emehrawn) 
->> [Instagram ](https://instagram.com/alimehrawn)
->> [LinkedIn](https://www.linkedin.com/in/mehran-ali-ansari-ba100516b/)
+- [Twitter](https://twitter.com/kladenstien9) 
+- [GitHub](https://github.com/emehrawn) 
+- [Instagram ](https://instagram.com/alimehrawn)
+- [LinkedIn](https://www.linkedin.com/in/mehran-ali-ansari-ba100516b/)
