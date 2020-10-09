@@ -10,7 +10,6 @@ From Computer science, psychology to religion and philosophy.
 Coming soon...
 
 ```
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Add anything.
 
