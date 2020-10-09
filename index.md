@@ -7,7 +7,7 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 From Computer science, psychology to religion and philosophy. 
 
 ```
-Coming soon...
+1. [Profound Dostoyevsky paragraphs](https://github.com/emehrawn/emehrawn.github.io/blob/main/dostoyevsky.md)
 
 ```
 
