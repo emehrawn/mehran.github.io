@@ -21,6 +21,13 @@ You can either add intresting codes here (with comments) if it does something co
 
 This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/trashrepo). 
 
+```
 ## Contact
 
-Mehran Ali Ansari.  >> [Twitter](https://twitter.com/kladenstien9) >> [GitHub](https://github.com/emehrawn) >> [IG](https://instagram.com/alimehrawn)
+Mehran Ali Ansari.  
+>> [Twitter](https://twitter.com/kladenstien9) 
+>> [GitHub](https://github.com/emehrawn) 
+>> [Instagram ](https://instagram.com/alimehrawn)
+>> [LinkedIn](https://www.linkedin.com/in/mehran-ali-ansari-ba100516b/)
+
+```
