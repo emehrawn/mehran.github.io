@@ -2,7 +2,7 @@
 ## Warmest of greetings...
 It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intented to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of (great) content that i have been able to accumulate, so far. 
 
-## Archives
+## Public Archives
 - ### Essays/Articles
 1. [Profound Dostoyevsky paragraphs](https://github.com/emehrawn/emehrawn.github.io/blob/main/dostoyevsky.md)
 2. [Iqbal and Sartre on Human Freedom and Creativity](https://github.com/emehrawn/emehrawn.github.io/blob/main/Iqbal%20and%20Sarte.md)
