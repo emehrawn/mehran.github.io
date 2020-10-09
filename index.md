@@ -6,6 +6,7 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 ### Archives
 
 1. [Profound Dostoyevsky paragraphs](https://github.com/emehrawn/emehrawn.github.io/blob/main/dostoyevsky.md)
+2. [Iqbal and Sartre on Human Freedom and Creativity](https://github.com/emehrawn/emehrawn.github.io/blob/main/Iqbal%20and%20Sarte.md)
 
 
 ### Add anything.
