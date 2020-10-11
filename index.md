@@ -15,6 +15,12 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 3. [Beyond Good and Evil](https://github.com/emehrawn/emehrawn.github.io/blob/main/beyond-good-and-evil.pdf)
 4. [Notes from the Underground](https://github.com/emehrawn/emehrawn.github.io/blob/main/notes-from-the-underground.pdf)
 
+- ### Podcasts
+1. [Joe Rogan Experience. ](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk?si=51JAAWntSa-aNrbt0qR7Cg)
+2. [The Jordan Peterson podcast](https://open.spotify.com/show/1Zw2DKjelPnuEYpydFlhgN?si=zZLIa0WySZCjsdPiq5VCyQ)
+3. [Making sense with Sam Harris](https://open.spotify.com/show/5rgumWEx4FsqIY8e1wJNAk?si=24vEW_D9ROCCf5xVaOgD6g)
+4. [H3 Podcast](https://open.spotify.com/show/7ydBWzs9BSRh97tsCjOhby?si=ZfoXYrcoTpKE9926ptDavg)
+
 ## Add anything.
 
 You can either add intresting codes here (with comments) if it does something cool or just learn the syntax of the Markdown scripting language here and also add some good literary pieces. :)
