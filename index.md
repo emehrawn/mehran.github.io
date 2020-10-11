@@ -1,4 +1,4 @@
-![Image](https://pbs.twimg.com/media/Ebk1S8FU4AA1IID?format=jpg&name=large)
+![Image](https://github.com/emehrawn/emehrawn.github.io/blob/main/Artboard%202221%403x.png)
 ## Warmest of greetings...
 It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intented to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of (great) content that i have been able to accumulate, so far. 
 
