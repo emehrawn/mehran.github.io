@@ -1,4 +1,4 @@
-![Image1](https://github.com/emehrawn/emehrawn.github.io/blob/main/ccd89084614547.5d62dfa66464a.jpg)
+![Image1](https://i1.wp.com/holeousia.com/wp-content/uploads/2017/08/fyodor-dostoyevsky-42.jpg?ssl=1)
 
 ## Warmest of greetings...
 It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intented to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of (great) content that i have been able to accumulate, so far. 
