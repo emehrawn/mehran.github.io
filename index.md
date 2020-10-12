@@ -1,4 +1,6 @@
-![Image1](https://i1.wp.com/holeousia.com/wp-content/uploads/2017/08/fyodor-dostoyevsky-42.jpg?ssl=1)
+![Image](https://i0.wp.com/holeousia.com/wp-content/uploads/2017/08/fyodor-dostoyevsky-2.jpg?resize=584%2C57&ssl=1)
+![Image2](https://cdn.statically.io/img/timelinecovers.pro/facebook-cover/download/the-godfather8-facebook-cover.jpg)
+![Image3](https://i1.wp.com/holeousia.com/wp-content/uploads/2017/08/fyodor-dostoyevsky-42.jpg?ssl=1)
 
 ## Warmest of greetings...
 It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intented to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of (great) content that i have been able to accumulate, so far. 
