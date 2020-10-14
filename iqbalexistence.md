@@ -81,7 +81,9 @@ All the things which are there in the world are tools for man. It is only the hu
 Life is the secret essence of the Adam, the hidden truth of creation... Life is reduced to a rivulent with little water in the bondage; In freedom, life is a boundless ocean.[27]
  
 DEATH AND HUMAN EXISTENCE
+
 Iqbal has a very peculiar conception of human existence. In his philosophy, death is not the end of human life. The existentialists interpret death as “Not” or “Nothingness”. According to the Heidegger and others this realization inspires dread and anguish. Iqbal’s Perfect Man (Mard-i-Mumin) is not awed by death. The inevitability of death strengthens his faith in Allah and he tries to attain immortality through seeking His pleasure. In Bang-i-Dara in a short poem Humayun and in another long poem entitled In memory of the late mother Iqbal says:
+
 ‘Ignorants consider death the end of life,
 While the eve of life is the beginning of an eternal life…[28] Death is nothing but revival of the lust for life,
 It is a dream that conveys the message of awakening.
@@ -90,36 +92,53 @@ The transitory character of an image implies permanence.[29]
 In Bal-i-Jibril he further asserts.[30]
 ‘I learnt this wisdom from Abu al-Hasan [‘Ali (A)]’
 that the soul remains unaffected by the death of body.’
+
 According to Iqbal the aspect of action is very important in human existence. It may be called the essence of his life. He points out that it is in action that the free ego seeks immortality. The martyrs who sacrifice their lives for the sake of higher ends attain immortality. In Iqbal’s view Martyrdom of husayn Ibn ‘Ali is. the. highest instance of the individual freely choosing his own destiny and thus attaining immortality. In this context, regarding Imam Husayn (referred to him by name “Shabbir”), he says in Bal-i Jibril:[31]
+
 ‘The station of Shabbir is an eternal reality while the positions of the Kufis and Shamis are ever-shifting.’
 Immortality, in the eyes of Iqbal, is an ideal which may or may not be attained by every one. Its achievement solely depends upon one’s personal efforts or constant striving. As the Holy Qur’an declares:
+
 Blessed is He in Whose hand is the Sovereignty, and He is able to do all things.
 Who hath created life and death
 that He may try you, which of you
 is best in conduct (or in point of deed);
 and He is Mighty and Forgiving.[32]
+
 According to Iqbal, life offers to the ego a great scope for personal efforts to achieve the ideal of immortality, and death is perhaps the best test whereby the synthetic activity of the ego is brought to trial. In this regard Iqbal says in his Payam-i-Mashriq:[33]
+
 I tell thee a piece of secret wisdom,
 If thou would’st learn from me the
 lesson of life:
+
 Thou diest if thou hast not the soul in the body, If thou hast the soul in the body thou diest not.
 An ego perfected through a life of creativity and action overcomes finitude. Martyrdom is eternal life, for in it the individual ego becomes one with the creative activity of Allah and conquers time:
+
 It is here that he becomes the Perfect Man; his eye becomes the eye of God, his word
 the word of God and his life the life of God—participates in the general life of Nature and ‘sees into the life of things’.[34]
 Iqbal is of the view that it is only the pure time that brings to the ego its freedom, creativity and immortality. Man that has attained a relatively perfect egohood, possesses a privileged position in the heart of Divine creative energy and is capable of consciously participating in the creative life of Allah—the Supreme Creator:
+
 Endowed with the power to imagine a better world, and to mould ‘what is’ into ‘what ought to be’ the ego in him aspires, into the interests of an increasingly unique and comprehensive individuality, to exploit all the various environments on which he may be called upon to operate during the course of an endless career.[35]
+
 In short, to Iqbal, death is not inflicted upon man but he chooses his own modes of death. Each man’s death is determined by his deeds. The martyrs who sacrifice their lives for the sake of higher ends, attain immortality. According to Jaspers, through death a human person transcends his own existence and becomes one with the Absolute Transcendence-- God. According to Iqbal, human ego is everything. He argues that every aspect of his existence represents a kind of totality of being:
+
 ‘I am life, I am death, I am resurrection.’[36] Again, Iqbal maintains:
 ‘Life and death are not worth our attention; Ego alone is the object of ego’:[37]
  
+
 FREEDOM AND HUMAN EXISTENCE
+
 Another most important aspect of human existence is freedom. Freedom is the summum bonum of Iqbal’s religious and ethical philosophy. According to him, an individual is alienated from his own self, nature, society and God in the state of slavery and he adds that this is also true of a nation. He goes to the extent of saying that a slave’s prayer is futile. Only a free man can establish a direct relationship with God.
+
 Iqbal interprets prayer as “an expression of man’s inner yearning for a response in the awful silence of the universe”[38] The universe responds to the yearning of a free man. This yearning is the yearning for freedom and immortality.
+
 Iqbal’s view regarding the various stages of the development of man can be compared with Kierkegaard’s theory of the three stages of life. Iqbal in his Secrets of the Self has mentioned three stages: (a) Subordination or obedience to moral law; (b) self-control, which is the highest form of self-consciousness or Ego-hood; and (c) Divine Vicegerency[39] (Niyabat). The first two stages, combined together, represent the ethical stage in Kierkegaard’s religious stage. But in Iqbal’s philosophy Vicegerency of God is far higher than the religious stage. It is at this stage that man establishes his own individuality and can even address God boldly in the following manner:
+
 ‘It is I who turn stone into a mirror,
 And it is I who turn poison into an antidote.
 Thou didst create the deserts, mountains and forests, I produced the orchards, gardens and groves.[40]
+
 It does not mean that Iqbal disregards God or shows disrespect to Him. It is the voice of freedom which echoes in these verses. This free creativity of man becomes part of Divine creativity-- a continuous process. Iqbal maintains in his Reconstruction of Religious Thought in Islam that “Man, in whom egohood has reached its relative perfection, occupies a genuine place in the heart of Divine creative energy...”[41] Man being the crown of the creation is along capable of consciously participating in the creative life of his Master or Maker (Allah).
+
 In the light of the preceding discussion it can rightly be said that none of the Muslim thinkers had elaborated the conception of human existence is such detail as Iqbal did in his Urdu, Persian and English works. There are various common characteristics of existential philosophy and Iqbalian thought. ‘Human existence’ is the centre point on which both the systems more. Iqbal has been and is being interpreted even today from different points of view. In the opinion of the present researcher, all these approaches are inadequate and one-sided. Existentialist approach to Iqbal alone can help one to understand Iqbal in his totality, and can bring out his relevance to contemporary thought in a broader perspective. In reality, human existence is the raison d’etre for his philosophy.
  
  ```
