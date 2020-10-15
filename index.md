@@ -21,8 +21,9 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 
 You can either add intresting codes here (with comments) if it does something cool or just learn the syntax of the Markdown scripting language here and also add some good literary pieces. :)
 
-This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/trashrepo). 
-Send directly to my [Cloud](https://driveuploader.com/upload/fBUfM0MxOQ/)
+- This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/trashrepo). 
+
+- Send directly to my [Cloud](https://driveuploader.com/upload/fBUfM0MxOQ/)
 
 ## Contact
   
