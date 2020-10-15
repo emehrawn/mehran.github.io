@@ -23,7 +23,7 @@ You can either add intresting codes here (with comments) if it does something co
 
 This is an open repository >> [emehrawn/trashrepo](https://github.com/emehrawn/trashrepo). 
 
-- Send straight to my [Cloud](https://driveuploader.com/upload/fBUfM0MxOQ/)
+Send straight to my [Cloud](https://driveuploader.com/upload/fBUfM0MxOQ/)
 
 ## Contact
   
