@@ -25,7 +25,7 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 - ### Some projects
 1. [Vermin Sniper](https://github.com/emehrawn/emehrawn.github.io/blob/main/VerminSniper_1.3.6.9.apk)
 
-AI-driven waste management system, An app that detects Garbage by the deployment of IBM Watson's visual recognition, Tower Triangulation, and a Private Server. It detects the objects the image captured, gives out exact confidence scores of each object in the image. If the score of objects constituting Garbage > 0.7 It will display "GARBAGE DETECTED". The exact location, image and message is sent to respective authorities that take care of it.
+Download Vermin Sniper. AI-driven waste management system, An app that detects Garbage by the deployment of IBM Watson's visual recognition, Tower Triangulation, and a Private Server. It detects the objects the image captured, gives out exact confidence scores of each object in the image. If the score of objects constituting Garbage > 0.7 It will display "GARBAGE DETECTED". The exact location, image and message is sent to respective authorities that take care of it.
 
 ## Add anything.
 
