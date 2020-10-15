@@ -20,6 +20,7 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 
 - ### Source Codes
 1. [Python](https://github.com/emehrawn/emehrawn.github.io/tree/main/Python)
+2. [C](https://github.com/emehrawn/emehrawn.github.io/tree/main/C)
 
 ## Add anything.
 
