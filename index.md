@@ -13,7 +13,7 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 
 - ### Books
 1. [Man's search for meaning](https://github.com/emehrawn/emehrawn.github.io/blob/main/Man's%20Search%20For%20Meaning%20(%20PDFDrive.com%20).pdf)
-2. [Nietzsche Dictionary](https://github.com/emehrawn/emehrawn.github.io/blob/main/The%20Nietzsche%20Dictionary.pdf)
+2. [Animal Farm](https://github.com/emehrawn/emehrawn.github.io/blob/main/animalfarm.pdf)
 3. [Beyond Good and Evil](https://github.com/emehrawn/emehrawn.github.io/blob/main/beyond-good-and-evil.pdf)
 4. [Notes from the Underground](https://github.com/emehrawn/emehrawn.github.io/blob/main/notes-from-the-underground.pdf)
 
