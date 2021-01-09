@@ -2,7 +2,6 @@
 ![Image3](https://i1.wp.com/holeousia.com/wp-content/uploads/2017/08/fyodor-dostoyevsky-42.jpg?ssl=1)
 ## Warmest of greetings...
 It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intended to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of content that i have been able to accumulate, so far. 
-[Account](https://github.com/emehrawn/emehrawn.github.io/blob/main/Account/index.md)
 
 
 ## Public Archives
