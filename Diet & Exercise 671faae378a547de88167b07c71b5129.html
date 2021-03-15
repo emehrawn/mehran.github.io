@@ -1,0 +1,682 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Diet &amp; Exercise</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="671faae3-78a5-47de-8816-7b07c71b5129" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">🥙</span></div><h1 class="page-title">Diet &amp; Exercise</h1></header><div class="page-body"><div id="7b6e9a33-59c1-44c4-bdcc-0a4dee06ed64" class="column-list"><div id="491e719c-af34-4551-8dfd-990b1780242b" style="width:50%" class="column"><h1 id="770bf8ff-0475-40a3-beca-6921038c1c8c" class="">Diet</h1><hr id="7df85619-e110-4b49-adb3-5e342893e195"/><figure id="2ad256a3-9b74-43c5-be91-3ea55817bff6" class="image"><a href="https://images-prod.healthline.com/hlcmsresource/images/topic_centers/Food-Nutrition/1296x728_6_Essential_Nutrients_and_Why_Your_Body_Needs_Them-Vitamins.jpg"><img src="https://images-prod.healthline.com/hlcmsresource/images/topic_centers/Food-Nutrition/1296x728_6_Essential_Nutrients_and_Why_Your_Body_Needs_Them-Vitamins.jpg"/></a></figure><p id="d8a90d25-cb1a-4b2c-bd0a-3a21d25a7ed9" class=""><mark class="highlight-yellow">7 Essential nutrients :</mark></p><ul id="6260ac1e-92df-4c96-9920-f10477e50f75" class="toggle"><li><details open=""><summary>Water</summary><h1 id="5c0660d8-47a0-4c04-9815-8ffd389a9597" class=""><mark class="highlight-red"><strong><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn><mi>l</mi><mi>i</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>s</mi><mi>E</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>y</mi><mi>d</mi><mi>a</mi><mi>y</mi></mrow><annotation encoding="application/x-tex">3 liters Everyday</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">3</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span><span class="mord mathdefault">t</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">s</span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord mathdefault">d</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span></span><span>﻿</span></span></strong></mark> </h1></details></li></ul><ul id="408bf3f5-97b2-453b-8349-1d792aa260e8" class="toggle"><li><details open=""><summary>Carbohydrates</summary><p id="1628f30c-257c-464a-96a7-3715f22ecca4" class="">
+</p><ol id="983f1eb0-8697-4f4c-a985-51dd03baf0e8" class="numbered-list" start="1"><li>Whole grains</li></ol><ol id="62662890-6fcf-4cca-90ce-aa779d18e779" class="numbered-list" start="2"><li>Vegetables </li></ol><ol id="9c7c69ae-a252-4c55-990f-64cf6c12d7ad" class="numbered-list" start="3"><li>Fruits</li></ol><p id="d7d2448d-e587-42ae-bfc1-ccd969f649c7" class="">
+</p></details></li></ul><ul id="c9659e77-b7f0-4a6b-a913-82cbb3b8d860" class="toggle"><li><details open=""><summary>Protein-Amino acids</summary><p id="edc47de3-c3c2-482f-8f4e-c4ccf148385e" class="">
+</p><p id="77e6999b-b046-4aba-8b7d-a509daead119" class="">Whey Protien</p><p id="f05d29c6-a3e4-4e6f-8158-272458b673a6" class="">Fish/Beef/Chicken </p><p id="cecbcb65-3146-4106-bd3d-a2abfd90a29d" class="">Peanut butter</p><p id="99fb6eec-79c6-46c2-80fb-5e3dcef79405" class="">Eggs</p><p id="d1bc6179-1ddc-41d6-b6ed-27ece4e70d50" class="">
+</p></details></li></ul><ul id="26e32308-3b90-496a-b18e-6d30f9cd9740" class="toggle"><li><details open=""><summary>Fat</summary><p id="a6ad88b7-2542-4508-b1be-044d348394f0" class="">
+</p><ul id="db0476be-9f51-4845-af3f-f85c2b1fce9b" class="bulleted-list"><li>HDL cholesterol is the “good” kind of cholesterol found in your blood.</li></ul><ul id="5dca7b29-a9f2-44e3-a145-c22c1b038ac1" class="bulleted-list"><li>LDL cholesterol is the “bad” kind.</li></ul><p id="35b8cd50-69d7-47d6-b386-9fc47379db81" class="">Eating too much <mark class="highlight-yellow">Saturated fat</mark> and <mark class="highlight-yellow">Trans Fat</mark> can increase blood cholesterol levels and LDL (bad) cholesterol levels.</p><ul id="b3514828-7745-4deb-a06c-19859d97e7e9" class="toggle"><li><details open=""><summary><mark class="highlight-red"><strong>Trans fats</strong></mark></summary><p id="f3528fcf-def3-4fd3-aa14-9c0f778614a1" class="">
+</p><ul id="861ada21-06a8-430a-b3b6-c29cf8b8d3db" class="bulleted-list"><li><mark class="highlight-red"><strong>fried foods</strong></mark> (French fries, doughnuts, deep-fried fast foods)</li></ul><ul id="d671fc8e-a7f6-4383-a3f2-10f94a534055" class="bulleted-list"><li><mark class="highlight-red"><strong>margarine</strong></mark> (stick and tub)</li></ul><ul id="9546b1ce-282b-4ed4-bd00-5d9e3b347258" class="bulleted-list"><li><mark class="highlight-red"><strong>vegetable shortening</strong></mark></li></ul><ul id="cce49891-8254-4dec-b7bc-f3f4fce3bf91" class="bulleted-list"><li><mark class="highlight-red"><strong>baked goods</strong></mark> (cookies, cakes, pastries)</li></ul><ul id="b8e48bbb-fb60-4f40-82cc-a83c5eb2236e" class="bulleted-list"><li><mark class="highlight-red"><strong>processed snack foods</strong></mark> (crackers, microwave popcorn)</li></ul><p id="d622ae06-c824-4d14-bb7e-207a57f5c023" class="">
+</p></details></li></ul><ul id="3d173806-b9c0-45a4-96b8-fda32b92c0c6" class="toggle"><li><details open=""><summary><strong><mark class="highlight-red">Saturated fats</mark></strong></summary><p id="1bcc7108-6a28-4072-ae3c-45c678672b61" class="">
+</p><ul id="85e28860-931a-4915-bb05-0c7e5d9c8738" class="bulleted-list"><li><mark class="highlight-red"><strong>fatty cuts of beef, pork, and lamb</strong></mark></li></ul><ul id="168e12ec-e529-432e-bfbb-48b916693212" class="bulleted-list"><li><strong><mark class="highlight-red">dark chicken meat and poultry skin</mark></strong></li></ul><ul id="4399c44c-9c4d-41f8-97be-2496a0c13b2f" class="bulleted-list"><li><mark class="highlight-red"><strong>high fat dairy foods</strong></mark> (whole milk, butter, cheese, sour cream, ice cream)</li></ul><ul id="a5344dc4-54ac-4ea3-a4b2-588c070c2f36" class="bulleted-list"><li><mark class="highlight-red"><strong>tropical oils</strong></mark> (coconut oil, palm oil, cocoa butter)</li></ul><ul id="5062473c-f1bd-4e98-833b-4b5f51c68dcb" class="bulleted-list"><li><mark class="highlight-red"><strong>lard</strong></mark></li></ul><p id="8b36de48-81bf-439e-ba2c-ea8dbd9be1c0" class="">
+</p></details></li></ul><p id="f1716376-f9d2-4c60-9e76-d46f0dc6d9e2" class="">
+</p><p id="9a4a07a3-beaf-4388-8f71-add0cdbc4a01" class="">Unsaturated Fats (<mark class="highlight-teal">Good fat</mark>)</p><p id="f3a67133-4ae7-41ac-872a-b0961bffafaf" class=""><mark class="highlight-yellow">Monounsaturated fats</mark> and <mark class="highlight-yellow">polyunsaturated fats</mark> are known as the “good fats” because they are good for your heart, your cholesterol, and your overall health.</p><ul id="80bce1d7-f753-4de8-8c78-3187c090fb5e" class="toggle"><li><details open=""><summary><mark class="highlight-teal"><strong>Monounsaturated fats</strong></mark></summary><p id="1d3facf8-1fa3-4b8c-b21f-20a038cb1cc9" class="">
+</p><ul id="c6d6a273-ccc7-4ff6-956e-9aba8896d9d3" class="bulleted-list"><li>Olive, peanut, and canola oils</li></ul><ul id="7f456026-3473-4f05-bef7-6d215f76012c" class="bulleted-list"><li>Avocados</li></ul><ul id="07089812-f686-4d27-8425-6a2fa55dff33" class="bulleted-list"><li>Nuts such as almonds, hazelnuts, and pecans</li></ul><ul id="bdfc82fa-2627-40a5-92bb-3f45554b2ca4" class="bulleted-list"><li>Seeds such as pumpkin and sesame seeds</li></ul><p id="11869154-69ba-44f2-942f-6080c8aecc7f" class="">
+</p></details></li></ul><ul id="df1e2506-05a5-4bb4-a7a9-f4d083f407b8" class="toggle"><li><details open=""><summary><mark class="highlight-teal"><strong>Polyunsaturated fats</strong></mark></summary><p id="a284d671-28a5-4f23-8f10-b08c693f1b24" class="">
+</p><ul id="2ec52b28-7876-402a-990a-7ba7b48847e9" class="bulleted-list"><li>Sunflower, corn, soybean, and flaxseed oils</li></ul><ul id="f687dc36-7a62-4e96-888d-bf5ee15a4dea" class="bulleted-list"><li>Walnuts</li></ul><ul id="6bcbcad8-7a01-4e81-ba46-b6e5f1ff6829" class="bulleted-list"><li>Flax seeds</li></ul><ul id="c0e6f71e-8ca8-4b8c-a173-447d506bbff1" class="bulleted-list"><li>Fish</li></ul><ul id="46b293fa-0e21-4253-9195-2d29fd8b4687" class="bulleted-list"><li>Canola oil</li></ul></details></li></ul><p id="7ece1fce-b748-455f-ba30-ab07a42a428b" class="">
+</p><ul id="408f2ef5-7392-4c9c-9970-977cbd4977be" class="toggle"><li><details open=""><summary>Omega-3 fatty acids</summary><p id="bf56c898-d355-4d16-bf22-73e764bed659" class="">
+</p><ul id="dfa76682-5e0f-4688-9760-e4cbe18a5167" class="bulleted-list"><li><mark class="highlight-yellow"><strong>Fish and other seafood </strong></mark>(especially cold-water fatty fish, such as salmon, mackerel, tuna, herring, and sardines)</li></ul><ul id="92d8c540-d139-49de-b4bf-fe3d31a09ef7" class="bulleted-list"><li><strong><mark class="highlight-yellow">Nuts and seeds</mark></strong> (such as flaxseed, chia seeds, and walnuts)</li></ul><ul id="93cb5291-5500-4777-a8a9-962e0f8cd8a2" class="bulleted-list"><li><strong><mark class="highlight-yellow">Plant oils</mark></strong> (such as flaxseed oil, soybean oil, and canola oil)</li></ul><ul id="67a71c67-974f-435f-9df2-f78fa03ad553" class="bulleted-list"><li><mark class="highlight-yellow"><strong>Fortified foods</strong></mark> (such as certain brands of eggs, yogurt, juices, milk, soy beverages, and infant formulas)</li></ul><p id="b426bca8-a838-454f-8650-72331a6961ff" class="">
+</p></details></li></ul></details></li></ul><ul id="c4651ef5-65ac-44cc-a1f9-5e3ffda740ca" class="toggle"><li><details open=""><summary>Vitamins</summary><p id="e8c1a32d-7103-4a77-9c63-a11ddd321d71" class="">
+</p><p id="8ebaf92e-bd08-4009-b4c9-baee262fac74" class="">A vitamin is an organic compound and an essential micronutrient that the body needs in small amounts. The essential vitamins are:</p><p id="c04e9307-673e-495e-8b06-c8428ab402a3" class="">Vitamin A : <mark class="highlight-yellow">skin and eye health</mark></p><p id="307c87ab-6e3c-4204-b544-b72e46a2909a" class="">Vitamin C : <mark class="highlight-yellow">bone, muscle &amp; immunity</mark></p><p id="6eb0af40-7c28-4044-8ca3-0d47a98ffc12" class="">Vitamin D : <mark class="highlight-yellow">cardiovascular, nervous health.</mark></p><p id="163512fc-0843-4148-a443-3f04d11034bd" class="">Vitamin E : <mark class="highlight-yellow">antioxidant</mark></p><p id="33b2adce-7d66-4e24-b0dd-b8f65d7c16a1" class="">B vitamins : <mark class="highlight-yellow">metabolism</mark></p><p id="7b1a5bde-c7f3-4eb0-a06d-6236b476b69d" class="">
+</p><p id="0fddabeb-4528-4e32-a4ca-2cb9c62894bb" class="">
+</p><h2 id="88c3ee69-6536-442b-be1a-ea6c9d53730e" class=""><mark class="highlight-yellow"><strong>Water soluble:</strong></mark></h2><p id="78fe0670-a558-4c87-928b-76b08784c4c2" class=""><strong>B-1: </strong>ham, soymilk, watermelon, acorn squash</p><p id="4686c12f-7349-4f73-aaea-1c002ce86d80" class="">
+</p><p id="60cd88e0-9ca3-47ab-8a83-527b4e92c85c" class=""><strong>B-2:</strong> milk, yogurt, cheese, whole and enriched grains and cereals.</p><p id="a71a1a1b-c0c9-4bec-8460-60d24df00cc4" class="">
+</p><p id="f00e68e8-d256-4fb6-b27c-8731ea7c4f53" class=""><strong>B-3: </strong>meat, poultry, fish, fortified and whole grains, mushrooms, potatoes</p><p id="4f5124ee-6bb5-470b-a84e-5e8475efee6c" class="">
+</p><p id="4b2c7e05-5159-4203-887e-563c0b965f04" class=""><strong>B-5: </strong>chicken, whole grains, broccoli, avocados, mushrooms</p><p id="b26eeba9-2bac-4df8-8be2-6a345a029b1d" class="">
+</p><p id="2d0f7278-7363-483d-8839-d3b64ff2bfe9" class=""><strong>B-6:</strong> meat, fish, poultry, legumes, tofu and other soy products, bananas</p><p id="b7f86dd5-7f5f-4f48-8bfb-9117599b7383" class="">
+</p><p id="736c1ec7-321b-4ab0-8455-fce2e5739650" class=""><strong>B-7: </strong>Whole grains, eggs, soybeans, fish</p><p id="aa8057b7-05da-4458-a971-0c00889ca75e" class="">
+</p><p id="8ac1585b-2d06-4b0a-8db8-90c757af4e45" class=""><strong>B-9: </strong>Fortified grains and cereals, asparagus, spinach, broccoli, legumes (black-eyed peas and chickpeas), orange juice</p><p id="bfea6da3-8f85-459a-a5e0-c5acb2ef646c" class="">
+</p><p id="bcec83ad-2943-4e46-9a0e-fa3f064cb4b3" class=""><strong>B-12: </strong>Meat, poultry, fish, milk, cheese, fortified soymilk and cereals</p><p id="078c3028-c4f9-4b44-ba0c-3aa65fa0fe71" class="">
+</p><p id="e2fc71c0-e988-4042-bedd-4a3ba8f8752c" class=""><strong>Vitamin C: </strong>Citrus fruit, potatoes, broccoli, bell peppers, spinach, strawberries, tomatoes, Brussels sprouts</p><p id="90eed0c3-676f-443b-8f7b-373557760a70" class="">
+</p><h2 id="60c27aea-3e6e-4ad3-855f-aa38bf08f7df" class=""><mark class="highlight-yellow"><strong>Fat soluble:</strong></mark></h2><p id="9918dad5-0ae6-4810-ba8e-5f97f99fe348" class=""><strong>Vitamin A: </strong>beef, liver, eggs, shrimp, fish, fortified milk, sweet potatoes, carrots, pumpkins, spinach, mangoes</p><p id="8b9a5cc6-40fa-4f43-b303-ff4a81e9b0f7" class="">
+</p><p id="20aca51e-4cdb-4fad-a37c-f49f45363f78" class=""><strong>Vitamin D: </strong>Fortified milk and cereals, fatty fish</p><p id="f0261648-3949-4356-9a27-4f7d5ad3e09e" class="">
+</p><p id="b683ba14-994d-437a-ac73-fbb137d26fcd" class=""><strong>Vitamin E: </strong>vegetables oils, leafy green vegetables, whole grains, nuts</p><p id="fcf8180d-90c2-4328-bde1-f6f009682073" class="">
+</p><p id="d1f2ea02-7933-493e-a236-3f8201df41d7" class=""><strong>Vitamin K: </strong>Cabbage, eggs, milk, spinach, broccoli, kale</p><p id="a9a935b8-6732-4add-8883-a1613feb388f" class="">
+</p><p id="1750bfc4-7431-4290-a093-3d0663ca5090" class="">
+</p></details></li></ul><ul id="2e6950d9-0839-4c83-80bb-253dd3487b9d" class="toggle"><li><details open=""><summary>Minerals</summary><p id="921e3206-6433-423f-b25a-d8d2838f2250" class="">
+</p><h2 id="4b6b5479-02ca-49bb-a68e-34d358b68fe1" class=""><mark class="highlight-yellow"><strong>Major:</strong></mark></h2><p id="0f540992-085b-44a9-9712-44fd6d7b26d0" class=""><strong>Calcium: </strong>yogurt, cheese, milk, salmon, leafy green vegetables</p><p id="052251a7-ba6e-4d9a-8a07-02a32e368a55" class="">
+</p><p id="d37bbb9b-8b29-4bf8-a0a7-2a62fbff3f23" class=""><strong>Chloride: </strong>salt</p><p id="d8d0d2b3-62bc-49af-8c80-3519d14f956c" class="">
+</p><p id="264f8870-eeb2-456f-80d4-a1e9872d26c1" class=""><strong>Magnesium: </strong>Spinach, broccoli, legumes, seeds, whole-wheat bread</p><p id="f5dcaf60-1522-4392-9879-aba06e10af78" class="">
+</p><p id="40db9635-eb87-46c2-8900-276df7e004ea" class=""><strong>Potassium: </strong>meat, milk, fruits, vegetables, grains, legumes</p><p id="95b73ac0-2242-4b00-94a8-199efff248ad" class="">
+</p><p id="6373bac0-d955-437b-a46e-d0a514a745b7" class=""><strong>Sodium: </strong>salt, soy sauce, vegetables</p><p id="42152310-5dd6-4dfd-aaf6-f4f4d4246eb2" class="">
+</p><h2 id="f25d78c9-fdba-419a-8b52-cec44e0632f3" class=""><mark class="highlight-yellow"><strong>Trace:</strong></mark></h2><p id="7e10491d-9e6c-438b-99ef-749b0ccda6aa" class=""><strong>Chromium: </strong>meat, poultry, fish, nuts, cheese</p><p id="b001d7d6-a2f0-4af8-89de-badd7292b8d0" class="">
+</p><p id="cacec3ce-70f1-4056-812f-308bd8708b8b" class=""><strong>Copper:</strong> shellfish, nuts, seeds, whole-grain products, beans, prunes</p><p id="5d6d699a-683f-4231-a0e9-194ca07ca34e" class="">
+</p><p id="1197b07b-ae0a-425a-a207-63f7452ff854" class=""><strong>Fluoride: </strong>fish, teas</p><p id="c6409260-dca4-407d-b45f-b90610e6cf50" class="">
+</p><p id="410af775-b412-47ea-880f-6328d7f78b54" class=""><strong>Iodine: </strong>Iodized salt, seafood</p><p id="babd3fb8-f8b5-4937-858d-029d57f4920f" class="">
+</p><p id="6e74e840-4cc6-4224-aafb-464b4c359933" class=""><strong>Iron: </strong>red meat, poultry, eggs, fruits, green vegetables, fortified bread</p><p id="79426ba7-3323-44bb-b753-e61965d702b5" class="">
+</p><p id="7defd999-8e1b-4b33-96c6-fccbff34d1f7" class=""><strong>Manganese: </strong>nuts, legumes, whole grains, tea</p><p id="7b081596-085e-4e49-be2f-16cf5d106b83" class="">
+</p><p id="eded7cdc-089d-4379-a1f9-ffe3a573d74e" class=""><strong>Selenium: </strong>Organ meat, seafood, walnuts</p><p id="0be78355-b2de-47b2-809c-00948717bbe8" class="">
+</p><p id="5a628aba-959f-48b5-b7a8-face69e1dbca" class=""><strong>Zinc: </strong>meat, shellfish, legumes, whole grains</p><p id="ebf2a8f3-c08e-4b9d-bb55-f09aa902758d" class="">
+</p><p id="7d66940c-cca5-45aa-bc0d-c8ac0d7889a9" class="">
+</p><p id="1926141d-2ede-4431-9851-74ad54e0cae9" class="">
+</p></details></li></ul><p id="c6a173a1-bbfe-4f2e-a468-f1a257a80052" class="">
+</p><figure class="block-color-orange_background callout" style="white-space:pre-wrap;display:flex" id="a8264c4f-5117-4f06-88b0-3ff1603eda7a"><div style="font-size:1.5em"><span class="icon">🌼</span></div><div style="width:100%">Keep the day simple.</div></figure><ul id="4d7278a1-bc87-4caf-bf82-bc29b50e2e91" class="bulleted-list"><li>Less Saturated &amp; Trans fats</li></ul><ul id="b4732fe9-69bd-47d3-9d48-5cda5b6be934" class="bulleted-list"><li>High Omega 3 and Unsaturated fats</li></ul><ul id="3c45207d-0ccd-4989-b096-71dbe66e5d46" class="bulleted-list"><li>High Protein </li></ul><ul id="d877ad0b-2d3b-4829-aca9-c37b24e36eaa" class="bulleted-list"><li>Intermediate carbohydrates </li></ul><ul id="bebf81b3-bc5e-44df-a73e-4d66ff39a1c4" class="bulleted-list"><li>A lot of Water</li></ul><ul id="470c19d0-776f-4fa0-96a3-a8d33391e7d0" class="bulleted-list"><li>Very less stress</li></ul><ul id="2c1c8155-b517-4d3c-9299-cbf47db7a718" class="bulleted-list"><li>Less caffeine </li></ul><p id="b530a0fe-9259-44a9-84ba-059d1eeb162b" class="">
+</p></div><div id="83dce12b-86a7-4619-874a-f1e8165d032b" style="width:50%" class="column"><h1 id="585ae1a0-3558-4805-bcc2-ee84e35b7002" class="">Exercise</h1><hr id="095dcf74-6a1a-4f11-971f-5c172ae96707"/><figure id="453426ff-e775-4fbd-9a82-a0d955cf90b9" class="image"><a href="https://images.hdqwalls.com/wallpapers/dwayne-johnson-workout-2018-mw.jpg"><img style="width:288px" src="https://images.hdqwalls.com/wallpapers/dwayne-johnson-workout-2018-mw.jpg"/></a></figure><figure class="block-color-orange_background callout" style="white-space:pre-wrap;display:flex" id="96901ef5-dedb-42c2-b2db-e9d8e416b9ef"><div style="font-size:1.5em"><span class="icon">🌼</span></div><div style="width:100%">Workout - Duration : 1.5 HRS/2 HRS</div></figure><p id="9c16bd6b-b505-4c2a-aa1c-f04ff943b0ea" class=""><mark class="highlight-orange"><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mi>a</mi><mi>t</mi><mi>l</mi><mi>o</mi><mi>s</mi><mi>s</mi><mo separator="true">,</mo><mi>m</mi><mi>u</mi><mi>s</mi><mi>c</mi><mi>l</mi><mi>e</mi><mi>g</mi><mi>a</mi><mi>i</mi><mi>n</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">Fat loss, muscle gain.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mord mathdefault">a</span><span class="mord mathdefault">t</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault">s</span><span class="mord mathdefault">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">m</span><span class="mord mathdefault">u</span><span class="mord mathdefault">s</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord mathdefault">a</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mord">.</span></span></span></span></span><span>﻿</span></span></mark></p><p id="c8cb3803-1da5-4364-b04b-1a753bbf4a30" class="">
+</p><p id="e6a0701c-e92c-4b6b-bee0-6be4174aea99" class="">DAY 01 (Mon) :  Chest</p><p id="5d7d2d2a-b1c2-4b46-8099-4dc49617831b" class="">DAY 02 (Tue) :   Back</p><p id="a32097f5-1608-44d7-b94c-a7159f351464" class="">DAY 03 (Wed) :  Biceps and Triceps</p><p id="e33cfad6-fc65-495e-b4fa-07dccde0dc83" class="">DAY 04 (Thurs) :  Shoulders and Deadlift</p><p id="b2d4101f-b107-40e7-8b16-df89b66f2655" class="">DAY 05 (Fri) :  Cardio</p><p id="f114ed21-eade-4133-99ad-16324d5ae20b" class="">DAY 06 (Sat) :  Legs</p><p id="20d70690-420a-484c-99dc-007ecdd4cb7a" class="">DAY 07 (Sun) :  Rest</p><p id="5967e7fa-8508-4ce7-a5bc-4f2130b13251" class="">
+</p><p id="68250cf4-cb5b-4489-bde0-498ee9d7d6b0" class=""><mark class="highlight-red"><strong>After Every Workout</strong></mark></p><figure id="3df8dfe5-c3dd-41b0-84f3-a6086db19604"><div class="source"><a href="https://www.youtube.com/watch?v=MiRAi2KOfRQ&amp;t=22s&amp;ab_channel=ATHLEAN-X%E2%84%A2">https://www.youtube.com/watch?v=MiRAi2KOfRQ&amp;t=22s&amp;ab_channel=ATHLEAN-X%E2%84%A2</a></div></figure><p id="6439f675-f151-4754-904c-a8ad1fe3bc60" class="">
+</p></div></div><p id="386693d6-6342-420b-b570-2568266ec509" class="">
+</p></div></article></body></html>
