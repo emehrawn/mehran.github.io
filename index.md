@@ -3,7 +3,7 @@
 ## Warmest of greetings...
 Welcome. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intended to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of content that i have been able to accumulate, so far. Peace!
 
-###Note
+### Note
 I was running out of cloud storage, so i believe it's a bit clever to use this repo as one. Also, Don't take me seriously, the rate at which I'm learning different perspectives had me going raving mad. I prefer minding my own business, This is just an outflow of random information and suggestions. you can agree or disagree, i barely care. 
 
 
