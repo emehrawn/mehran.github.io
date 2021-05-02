@@ -1,7 +1,10 @@
 ![Image2](https://ipxhk3h7a3a1plotd6b9on2x-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/Cat.-No.-1198-Qinghai-Maqin-100cm-x-100cm-Oil-on-LInen-2018-xiamen-1500x500.jpg)
 ![Image3](https://i1.wp.com/holeousia.com/wp-content/uploads/2017/08/fyodor-dostoyevsky-42.jpg?ssl=1)
 ## Warmest of greetings...
-It gratifies me to welcome you. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intended to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of content that i have been able to accumulate, so far. 
+Welcome. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intended to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of content that i have been able to accumulate, so far. Peace!
+
+###Note
+I was running out of cloud storage, so i believe it's a bit clever to use this repo as one. Also, Don't take me seriously, the rate at which I'm learning different perspectives had me going raving mad. I prefer minding my own business, This is just an outflow of random information and suggestions. you can agree or disagree, i barely care. 
 
 
 ## Public Archives
@@ -17,6 +20,8 @@ It gratifies me to welcome you. I write, code and archive untamed storm of ideas
 2. [Animal Farm](https://github.com/emehrawn/emehrawn.github.io/blob/main/animalfarm.pdf)
 3. [Beyond Good and Evil](https://github.com/emehrawn/emehrawn.github.io/blob/main/beyond-good-and-evil.pdf)
 4. [Notes from the Underground](https://github.com/emehrawn/emehrawn.github.io/blob/main/notes-from-the-underground.pdf)
+5. [King, Warrior, Magician, Lover_ Rediscovering the Archetypes of the Mature Masculine](https://github.com/emehrawn/emehrawn.github.io/blob/main/King%2C%20Warrior%2C%20Magician%2C%20Lover_%20Rediscovering%20the%20Archetypes%20of%20the%20Mature%20Masculine%20(%20PDFDrive%20).pdf)
+6. [Notes from the Underground](https://github.com/emehrawn/emehrawn.github.io/blob/main/notes-from-the-underground.pdf)
 
 
 - ### Source Codes
@@ -34,4 +39,4 @@ You can either add intresting codes here (with comments) if it does something co
 
 ## Contact
   
-[Twitter](https://twitter.com/kladenstien9) [GitHub](https://github.com/emehrawn) [Instagram ](https://instagram.com/alimehrawn) [LinkedIn](https://www.linkedin.com/in/mehran-ali-ansari-ba100516b/)
+[Twitter](https://twitter.com/thegoogolplex) [GitHub](https://github.com/emehrawn) [Instagram ](https://instagram.com/mehran.a1i) [LinkedIn](https://www.linkedin.com/in/mehran-ali-ansari-ba100516b/)
