@@ -1,4 +1,4 @@
-![Image2](https://ipxhk3h7a3a1plotd6b9on2x-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/Cat.-No.-1198-Qinghai-Maqin-100cm-x-100cm-Oil-on-LInen-2018-xiamen-1500x500.jpg)
+![Image2](https://in.pinterest.com/pin/851602610785796784/)
 ![Image3](https://i1.wp.com/holeousia.com/wp-content/uploads/2017/08/fyodor-dostoyevsky-42.jpg?ssl=1)
 ## Warmest of greetings...
 Welcome. I write, code and archive untamed storm of ideas and tools of serviceableness that this repository is intended to accommodate. Since you don't have access to the private repository, you don't get full access. Nonetheless, I will share a decent swathe of content that i have been able to accumulate, so far. Peace!
