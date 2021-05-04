@@ -7,7 +7,7 @@ Welcome. I write, code and archive untamed storm of ideas and tools of serviceab
 I was running out of cloud storage, so i believe it's a bit clever to use this repo as one. Also, Don't take me seriously, the rate at which I'm learning different perspectives had me going raving mad. I prefer minding my own business, This is just an outflow of random information and suggestions. you can agree or disagree, i barely care. 
 
 
-## Public Archives
+## Text
 - ### Essays/Articles
 1. [Profound Dostoyevsky paragraphs](https://github.com/emehrawn/emehrawn.github.io/blob/main/dostoyevsky.md)
 2. [Iqbal and Sartre on Human Freedom and Creativity](https://github.com/emehrawn/emehrawn.github.io/blob/main/Iqbal%20and%20Sarte.md)
@@ -29,6 +29,12 @@ I was running out of cloud storage, so i believe it's a bit clever to use this r
 - ### Source Codes
 1. [Python](https://github.com/emehrawn/emehrawn.github.io/tree/main/Python)
 2. [C](https://github.com/emehrawn/emehrawn.github.io/tree/main/C)
+
+## Multimedia
+### Killer series
+1. [Maps of Meaning: The Architecture of Belief (University of Toronto)](https://www.youtube.com/playlist?list=PL22J3VaeABQAT-0aSPq-OKOpQlHyR4k5h)
+2. [Personality and Its Transformations (University of Toronto)](https://www.youtube.com/playlist?list=PL22J3VaeABQApSdW8X71Ihe34eKN6XhCi)
+3. []()
 
 
 ## Add anything.
