@@ -34,7 +34,6 @@ I was running out of cloud storage, so i believe it's a bit clever to use this r
 ### Killer series
 1. [Maps of Meaning: The Architecture of Belief (University of Toronto)](https://www.youtube.com/playlist?list=PL22J3VaeABQAT-0aSPq-OKOpQlHyR4k5h)
 2. [Personality and Its Transformations (University of Toronto)](https://www.youtube.com/playlist?list=PL22J3VaeABQApSdW8X71Ihe34eKN6XhCi)
-3. []()
 
 
 ## Add anything.
